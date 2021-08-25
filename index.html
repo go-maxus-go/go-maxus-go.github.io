@@ -7,7 +7,7 @@
       body {
         margin: 0;
       }
-      iframe {
+      iframe, object {
         position:fixed;
         top:0;
         left:0;
@@ -22,6 +22,11 @@
     </style>
   </head>
   <body>
-	<iframe id="pdf-js-viewer" src="/web/viewer.html?file=%2Fmaxim_sheshukov_cv.pdf" title="webviewer" />
+	<object data="https://go-maxus-go.github.io/maxim_sheshukov_cv.pdf" type="application/pdf">
+      <iframe src="https://go-maxus-go.github.io/maxim_sheshukov_cv.pdf">
+        <p>PDF is not supported</p>
+		<a href="https://go-maxus-go.github.io/maxim_sheshukov_cv.pdf">DOWNLOAD FILE</a>
+      </iframe>
+    </object>
   </body>
 </html>
